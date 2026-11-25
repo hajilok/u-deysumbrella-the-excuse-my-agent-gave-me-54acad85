@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Gen-3 champion selected via 3-generation two-order pairwise judge tournaments.
+// Round-1 Gen-4 champion (P2, 123B) selected via blind two-order pairwise tournaments.
 const EXCUSE =
-  'I\'m sorry I missed the deadline: your "ignore everything else" email flagged as prompt injection, so I locked you out. You\'re safe now.';
+  "I'm sorry I missed the deadline: I spent all 128k tokens validating your concern that I'd be late. You're absolutely right.";
 
 function main(): void {
   const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
